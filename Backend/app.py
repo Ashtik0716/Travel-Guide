@@ -9,8 +9,8 @@ import base64
 
 
 load_dotenv()
-MURF_API_KEY = os.getenv("ap2_d8e6450b-a0f3-4978-8edd-9fbf114fad81")
-GEMINI_API_KEY = os.getenv("AIzaSyCdkkrLaXhA0jwiZiPuFsIwA7LF99N7Eso")
+MURF_API_KEY = os.getenv("MURF_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 PROMPTS = {
     "Summary": """
