@@ -1,12 +1,15 @@
 from flask import Flask, jsonify, request
 from google import genai
 from flask_cors import CORS
+from dotenv import load_dotenv
+import os
 import requests
 import tempfile
 import base64
 
-MURF_API_KEY = "ap2_d8e6450b-a0f3-4978-8edd-9fbf114fad81"
-GEMINI_API_KEY = "AIzaSyCdkkrLaXhA0jwiZiPuFsIwA7LF99N7Eso"
+load_dotenv()
+MURF_API_KEY = os.getenv("ap2_d8e6450b-a0f3-4978-8edd-9fbf114fad81")
+GEMINI_API_KEY = os.getenv("AIzaSyCdkkrLaXhA0jwiZiPuFsIwA7LF99N7Eso")
 
 PROMPTS = {
     "Summary": """
