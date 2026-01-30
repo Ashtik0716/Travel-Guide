@@ -7,6 +7,7 @@ import requests
 import tempfile
 import base64
 
+
 load_dotenv()
 MURF_API_KEY = os.getenv("ap2_d8e6450b-a0f3-4978-8edd-9fbf114fad81")
 GEMINI_API_KEY = os.getenv("AIzaSyCdkkrLaXhA0jwiZiPuFsIwA7LF99N7Eso")
