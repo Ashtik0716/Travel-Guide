@@ -5,8 +5,8 @@ import requests
 import tempfile
 import base64
 
-MURF_API_KEY = "ap2_d8e6450b-a0f3-4978-8edd-9fbf114fad81"
-GEMINI_API_KEY = "AIzaSyCdkkrLaXhA0jwiZiPuFsIwA7LF99N7Eso"
+MURF_API_KEY = ""
+GEMINI_API_KEY = ""
 
 PROMPTS = {
     "Summary": """
